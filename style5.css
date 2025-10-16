@@ -15,7 +15,7 @@
     font-size: 8em;
     text-align: center;
     border-radius: 15px;
-    box-shadow: 5px 5px 5px grey;
+    box-shadow: 5px 5px 5px darkblue;
      transition: transform 0.3s ease, height 0.3s ease;
 }
 
