@@ -10,38 +10,52 @@
 
 }
 .image img{
-     width:180px;
-    height:180px;
+     width:200px;
+    height:300px;
     font-size: 8em;
     text-align: center;
     border-radius: 15px;
     box-shadow: 5px 5px 5px grey;
+     transition: transform 0.3s ease, height 0.3s ease;
 }
-#img1,:hover{
+
+.image img:hover {
     transform: scale(1.1);
-    width:auto;
-    height:200px;
+    /* height: 320px; */
 }
-#img2{
-    width:auto;
-    height:200px;
+
+#img1 img:hover,
+#img2 img:hover,
+#img3 img:hover,
+#img4 img:hover,
+#img5 img:hover {
+    transform: scale(1.1);
+    width: auto;
+    height: 200px;
 }
-#img3{
-    width:auto;
-    height:200px;
-}
-#img4{
-    width:auto;
-    height:200px;
-}
-#img5{
-    width:auto;
-    height:200px;
-}
+
 body{
-    background-image: url("Aimg.png");
+    background-image: url("image/Aimg.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+}
+h1{
+    color: greenyellow;
+    font-size:50px;
+    font-style: italic;
+    text-align: center;
+}
+h3{
+    color: greenyellow;
+    font-size:20px;
+    font-style: italic;
+    text-align: center;
+}
+h2{
+    color: greenyellow;
+    font-size:30px;
+    font-style: italic;
+    text-align: center;
 }
