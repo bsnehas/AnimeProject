@@ -1,0 +1,47 @@
+.container{
+    width:auto;
+    height:auto;
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; 
+    gap:10px;
+    align-items: center;
+
+
+}
+.image img{
+     width:180px;
+    height:180px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px grey;
+}
+#img1,:hover{
+    transform: scale(1.1);
+    width:auto;
+    height:200px;
+}
+#img2{
+    width:auto;
+    height:200px;
+}
+#img3{
+    width:auto;
+    height:200px;
+}
+#img4{
+    width:auto;
+    height:200px;
+}
+#img5{
+    width:auto;
+    height:200px;
+}
+body{
+    background-image: url("Aimg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
